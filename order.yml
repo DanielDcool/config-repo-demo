@@ -8,6 +8,11 @@ spring:
     url: jdbc:mysql://127.0.0.1/springcloud?characterEncoding=utf-8&useSSL=false
   jpa:
     show-sql: true
+  rabbitmq:
+    addresses: localhost
+    port: 5672
+    username: guest
+    password: guest
   cloud:
     loadbalancer:
       retry:
