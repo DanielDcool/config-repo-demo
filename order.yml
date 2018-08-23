@@ -17,6 +17,10 @@ spring:
     loadbalancer:
       retry:
         enabled: true
+  redis:
+    host: localhost
+    pool: 6379
+
 
 
 
